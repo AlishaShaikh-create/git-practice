@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Construction Company</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-icons">
+                <i class="fas fa-building"></i>
+                <i class="fas fa-hard-hat"></i>
+            </div>
+            <h1>Get In <span class="highlight">Touch</span></h1>
+            <p>Ready to build your dream project? Contact our expert construction team today for a free consultation and quote.</p>
+            <div class="hero-badges">
+                <div class="badge">30+ Years Experience</div>
+                <div class="badge">Licensed & Insured</div>
+            </div>
+        </div>
+        <div class="hero-gradient"></div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <div class="grid">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="section-header">
+                        <h2>Contact Information</h2>
+                        <p>We're here to help bring your construction vision to life. Reach out to us through any of the following methods.</p>
+                    </div>
+
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="card-icon phone">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Phone</h3>
+                                <p class="main-info">(555) 123-4567</p>
+                                <p class="sub-info">Call us 24/7</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="card-icon email">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Email</h3>
+                                <p class="main-info">info@constructco.com</p>
+                                <p class="sub-info">We respond within 2 hours</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="card-icon location">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Office Location</h3>
+                                <p class="main-info">123 Construction Ave</p>
+                                <p class="sub-info">Downtown District, NY 10001</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="card-icon hours">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Business Hours</h3>
+                                <p class="main-info">Mon - Fri: 7AM - 6PM</p>
+                                <p class="sub-info">Sat: 8AM - 4PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="why-choose-us">
+                        <h3>Why Choose Us?</h3>
+                        <div class="service-item">
+                            <i class="fas fa-wrench"></i>
+                            <div>
+                                <span class="service-title">Custom Construction</span>
+                                <span class="service-desc">- Tailored building solutions</span>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <span class="service-title">Quality Guarantee</span>
+                                <span class="service-desc">- 100% satisfaction promise</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <div class="form-card">
+                        <div class="form-header">
+                            <h2><i class="fas fa-paper-plane"></i> Request a Quote</h2>
+                            <p>Fill out the form below and we'll contact you soon</p>
+                        </div>
+                        <div class="form-content">
+                            <form id="contactForm">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="name"><i class="fas fa-user"></i> Full Name *</label>
+                                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email"><i class="fas fa-envelope"></i> Email Address *</label>
+                                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+                                        <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="projectType">Project Type *</label>
+                                        <select id="projectType" name="projectType" required>
+                                            <option value="">Select project type</option>
+                                            <option value="residential">Residential Construction</option>
+                                            <option value="commercial">Commercial Building</option>
+                                            <option value="renovation">Home Renovation</option>
+                                            <option value="addition">Home Addition</option>
+                                            <option value="kitchen">Kitchen Remodel</option>
+                                            <option value="bathroom">Bathroom Remodel</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Project Details *</label>
+                                    <textarea id="message" name="message" required rows="6" placeholder="Please describe your project, timeline, budget range, and any specific requirements..."></textarea>
+                                </div>
+
+                                <button type="submit" class="submit-btn" id="submitBtn">
+                                    <i class="fas fa-paper-plane"></i>
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="map-header">
+                <h2>Visit Our Office</h2>
+                <p>Come see our showroom and meet with our construction experts in person</p>
+            </div>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <div class="map-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Interactive Map</h3>
+                    <p>Map integration would be implemented here<br>123 Construction Ave, Downtown District, NY 10001</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <i class="fas fa-check-circle"></i>
+            <div>
+                <h4>Message Sent Successfully!</h4>
+                <p>We'll get back to you within 24 hours.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
